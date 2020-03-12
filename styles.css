@@ -1,4 +1,5 @@
 
+
 .screen10 {      /* These are start of Dr Thom & Gervan's CSS classes */
   margin: 0;
   text-align: center;
@@ -6,8 +7,8 @@
 }
 
 .scrn10bigtext {
-margin: 10px;
-font-size: 24pt;
+  margin: 10px;
+  font-size: 24pt;
 }
 
 .screen10font {
@@ -30,4 +31,4 @@ font-size: 24pt;
 .topspace {
   padding: 16px 0 0 0;
   margin: 0;
-}        /* These are end of Dr Thom & Gervan's CSS classes */
+}        /* These are end of Dr Thom & Gervan's CSS classes *
