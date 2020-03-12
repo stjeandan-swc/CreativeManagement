@@ -1,0 +1,30 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -6,19 +6,24 @@
+   </head>
+   <body>
+     <!-- Dan Section -->
+-    <div class="dan-container">
++    <div class="dan-container bg-img">
++      
++      <!--
+       <div class="row">
+         <div class="column">&nbsp;</div>
+         <div class="column">&nbsp;</div>
+         <div class="column spacing">
+-          <p class="dan-font">Creative events</p>
+-          <p class="dan-font dan-font-lg">Management</p>
++          <p class="dan-font font-adjustment">Creative events</p>
++          <div class="text-wrapper dan-coloring">
++            <p class="dan-font dan-font-lg">Management</p>
++          </div>
+         </div>
+         <div class="column">&nbsp;</div>
+       </div>
++      -->
+     </div>
+     <!-- START of Testimonials area (Dr Thom & Gervan) -->
+-    <div class="screen10"> 
++    <div class="screen10">
+       <div>
+         <p class="topspace"></p>
+         <h4 class="scrn10bigtext screen10font">WHAT OUR <span class="textblue">CLIENTS SAY</span></h4>
