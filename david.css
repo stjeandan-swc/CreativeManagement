@@ -1,0 +1,53 @@
+/* David's CSS */
+
+
+h2, p, img {
+  display: block;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.container {
+  display:grid;
+  color: black;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-template-rows: 275px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.div-grid {
+  display:flex;
+  padding: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.div-grid-info {
+  display: flex;
+  font-size: 10pt;
+  align-self:center;
+  font-weight: normal;
+}
+
+div-grid-info2 {
+  display: flex;
+  font-size: 10pt;
+  justify-content: center;
+}
+
+.box-grid {
+  display:block;
+  padding:0px;
+  margin: none;
+  /*box-shadow: 1px 1px 6px rgba(0,0,0,5);*/
+}
+
+.image-class{
+  display:inline-block;
+  width:75px;
+  height:75px;
+  vertical-align: middle;
+
+}
