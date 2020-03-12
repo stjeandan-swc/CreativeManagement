@@ -56,13 +56,8 @@
 }
 
 /* These are start of Dr Thom & Gervan's CSS classes */
-<<<<<<< .merge_file_a21488
-
-.screen10 {
-=======
 .screen10 {
   display:grid;
->>>>>>> .merge_file_a21320
   margin: 0;
   height: 100vh;
   text-align: center;
@@ -192,7 +187,6 @@ p {
   text-align: center;
   font-weight: normal;
 }
-
 
 .box-grid {
   display:block;
