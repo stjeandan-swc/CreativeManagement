@@ -2,6 +2,105 @@
   margin: 0px;
   padding: 0px;
 }
+/**lalaantika's code start**/
+.mainl{
+background-color:white;
+height:100vh;
+
+}
+.wrapperl{
+    display:inline-grid;
+    grid-template-columns:repeat(5 100%);
+    background-color:#6F43D6;
+}
+.boxl{
+    display:inline-block;
+    background-color:#6F43D6;
+    border: 80px;
+
+}
+.onel{
+  padding-top:150px;
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row: 1;
+  padding-right:25px;
+  border:60px;
+  padding-left: 350px;
+  padding-bottom: 150px;
+
+}
+.linediv{
+  grid-column-start: 3;
+  grid-column-end:3;
+  grid-row: 1;
+  padding-left:5px
+
+}
+
+.twol{
+  padding-top:150px;
+  grid-column: 4/5;
+  grid-row: 1;
+  padding-right:300px;
+  padding-bottom: 150px;
+}
+.textl
+{
+color:white;
+font-size:200%;
+font-weight: 400;
+text-align: right;
+text-decoration: none;
+font-family: sans-serif;
+}
+.textl2
+{
+  color:white;
+  font-size: 120%;
+  text-decoration: none;
+  text-align: left;
+}
+.vlla {
+  position: relative;
+  border-left: 5px solid #4FD5ED  ;
+  height: 250px;
+  top: 150px;
+  bottom: 50px;
+}
+.textl3
+{
+  color:white;
+  font-size: 100%;
+  text-decoration: none;
+
+}
+.ullist{
+  list-style: none;
+}
+.forc{
+  color: #4FD5ED ;
+}
+.servicebox {
+   position: relative;
+    background-color:mediumvioletred;
+    border:5px solid mediumvioletred;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    z-index:0;
+  }
+.boxpl
+{
+padding-left: 720px;
+position: relative;
+top:580px;
+}
+
+/**lalaantika's code end**/
 /* Dan css */
 .dan-container {
   width: 100%;
