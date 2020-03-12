@@ -73,6 +73,66 @@
   margin: 0;
 }
 
+/*aus css*/
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,350px);
+    padding: 30px;
+    height: 500px;
+    align-content: center;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    padding: 100px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.center1 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-aus {
+    padding: 10px 10px 10px 10px;
+    background-color: #fffa78;
+    border: none;
+}
+
+.box1 {
+    padding: 50px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #4fd5ed;
+    color: white;
+}
+
+.cl {
+    color: #4fd5ed;
+}
+
+.box2 {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    border-radius: 3px;
+    text-align: center;
+    border: groove;
+}
+
+.btn-aus2 {
+    padding: 10px 10px 10px 10px;
+    background-color: #fe6192;
+    border: none;
+}
+
 /* David's CSS */
 p {
   display: block;
