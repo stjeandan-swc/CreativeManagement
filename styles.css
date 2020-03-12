@@ -1,1 +1,34 @@
 
+
+.screen10 {      /* These are start of Dr Thom & Gervan's CSS classes */
+  margin: 0;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.scrn10bigtext {
+  margin: 10px;
+  font-size: 24pt;
+}
+
+.screen10font {
+  font-family: 'Bahnschrift', sans-serif;
+  font-weight: bolder;
+}
+
+.textblue {
+   color: #00c8f3;
+}
+
+.Testimonialtext {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 190px 10px 190px;
+  color: grey;
+  margin: 10px;
+}
+
+.topspace {
+  padding: 16px 0 0 0;
+  margin: 0;
+}        /* These are end of Dr Thom & Gervan's CSS classes *
