@@ -37,11 +37,13 @@
 }
 
 /* These are start of Dr Thom & Gervan's CSS classes */
-
 .screen10 {
+  display:grid;
   margin: 0;
+  height: 100vh;
   text-align: center;
   background-color: whitesmoke;
+  vertical-align: middle;
 }
 
 .scrn10bigtext {
@@ -59,21 +61,19 @@
 }
 
 .Testimonialtext {
-  text-align: center;
   font-size: 15px;
-  padding: 10px 190px 10px 190px;
   color: grey;
-  margin: 10px;
+}
+.textarea {
+  padding: 20px 350px 20px 350px;
 }
 
 .topspace {
-  padding: 16px 0 0 0;
+  padding: 150px 0 0 0;
   margin: 0;
 }
 
 /* David's CSS */
-
-
 p {
   display: block;
   margin: 0px;
@@ -122,5 +122,9 @@ p {
   width:75px;
   height:75px;
   vertical-align: middle;
+}
 
+.alignpics {
+  align-content: center;
+  padding-bottom: 20px;
 }
