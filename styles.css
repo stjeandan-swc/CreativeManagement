@@ -4,20 +4,39 @@
 }
 /* Dan css */
 .dan-container {
+  width: 100%;
+}
+
+.bg-img {
   background-image: url(img/Bg2.jpg);
-  background-size: 100%;
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-size: cover;
 }
 
 .dan-font {
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16pt;
+  font-size: 2vw;
 }
 
 .dan-font-lg {
-  font-size: 42pt;
+  font-size: 3.5vw;
+  color: white;
+}
+
+.font-adjustment {
+  text-align: right;
+}
+
+.dan-coloring {
+  background-color: #6d41d3;
+}
+
+.text-wrapper {
+  width: 100%;
+  padding: 15px 3px;
 }
 
 .column {
@@ -38,7 +57,7 @@
 
 /* These are start of Dr Thom & Gervan's CSS classes */
 
-.screen10 {      
+.screen10 {
   margin: 0;
   text-align: center;
   background-color: whitesmoke;
