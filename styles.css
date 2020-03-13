@@ -14,7 +14,6 @@
     grid-template-columns: repeat(14,97px);
     grid-template-rows: repeat(10,50px);
     background-color: #6F43D6;
-    padding-top: 25px;
     margin-top: 120px;
 }
 
@@ -24,7 +23,7 @@
 }
 
 .onel {
-    grid-column: 1/7;
+    grid-column: 2/7;
     grid-row: 1/8;
     padding-left: 200px;
     padding-right: 25px;
@@ -38,7 +37,7 @@
 }
 
 .threel {
-    grid-column: 8/14;
+    grid-column: 8/13;
     grid-row: 1/8;
     padding-right: 120px;
     padding-left: 45px;
@@ -99,7 +98,18 @@
     grid-row-start: 8;
     grid-row-end: 11;
 }
-
+.clearl4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 11;
+}
+.clearl5 {
+    grid-column-start: 14;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 11;
+}
 .clearl2 {
     grid-column-start: 6;
     grid-column-end: 15;
