@@ -28,7 +28,7 @@
     grid-row: 1/8;
     padding-left: 200px;
     padding-right: 25px;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .twol {
@@ -41,14 +41,15 @@
     grid-column: 8/14;
     grid-row: 1/8;
     padding-right: 160px;
-    padding-left: 5px;
-    padding-top: 40px;
+    padding-left: 45px;
+    padding-top: 60px;
 }
 
 .fourl {
     grid-column: 6/9;
     grid-row: 7/9;
     margin-left: 80px;
+    margin-top:20px;
 }
 
 .ullist {
