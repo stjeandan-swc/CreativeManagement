@@ -306,18 +306,19 @@
 /* David's CSS */
 .p-class {
   display: block;
-  margin: 0px;
   vertical-align: middle;
+  margin-left:64px;
+  margin-right: 64px;
 }
 
 .container {
-  display:grid;
+  display:inline-grid;
   color: black;
   grid-template-columns: 280px 280px 280px 280px;
   grid-template-rows: 275px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
+  /*margin-left: 0px;
+  margin-right: 0px;*/
+  justify-content: center;
 }
 
 .div-grid {
