@@ -28,7 +28,7 @@
     grid-row: 1/8;
     padding-left: 200px;
     padding-right: 25px;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .twol {
@@ -71,7 +71,7 @@
 
 .textl {
     color: white;
-    font-size: 125%;
+    font-size: 140%;
     font-weight: 400;
     text-align: right;
     text-decoration: none;
@@ -258,7 +258,7 @@
     padding: 100px;
     border-radius: 3px;
     text-align: center;
-    
+
 }
 
 .center {
@@ -269,7 +269,7 @@
     display: flex;
     justify-content: center;
     align-items:center;
-   
+
 }
 
 .btn-aus {
@@ -298,7 +298,7 @@
     padding: 50px;
     border-radius: 3px;
     text-align: center;
-    
+
 }
 
 .btn-aus2 {
@@ -320,9 +320,9 @@
   color: black;
   grid-template-columns: 280px 280px 280px 280px;
   grid-template-rows: 275px;
-  /*margin-left: 0px;
-  margin-right: 0px;*/
   justify-content: center;
+  width:100%;
+  margin:auto auto;
 }
 
 .div-grid {
@@ -414,11 +414,8 @@
 
 .container-ro {
     width: 100%;
-    padding-right: 5px;
-    padding-left: 5px;
     margin-right: 51%;
     margin-left: 51%;
-    padding: 122px;
     text-align: center;
 }
 
@@ -447,7 +444,7 @@
 /*Moj's CSS*/
 .footer-wrapper .contact-container {
   width: 25vw;
-  margin: auto auto 10px auto; 
+  margin: auto auto 10px auto;
 }
 
 .footer-wrapper, .footer-wrapper p, .footer-wrapper span, .footer-wrapper img, .footer-wrapper label, .footer-wrapper form, .footer-wrapper input, .footer-wrapper h1, .footer-wrapper textarea, .trademark {
