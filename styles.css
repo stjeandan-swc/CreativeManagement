@@ -241,9 +241,12 @@
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(3,350px);
-    padding: 30px;
+    padding: 5px;
     height: 570px;
     align-content: center;
+}
+.sb {
+    box-shadow: 20px 20px 50px grey;
 }
 
 .box {
@@ -252,6 +255,7 @@
     padding: 100px;
     border-radius: 3px;
     text-align: center;
+    
 }
 
 .center {
@@ -261,6 +265,8 @@
 .center1 {
     display: flex;
     justify-content: center;
+    align-items:center;
+   
 }
 
 .btn-aus {
@@ -275,11 +281,13 @@
     text-align: center;
     background-color: #4fd5ed;
     color: white;
+    height: 350px;
 }
 
 .cl {
     color: #4fd5ed;
 }
+
 
 .box2 {
     background-color: white;
@@ -287,7 +295,7 @@
     padding: 50px;
     border-radius: 3px;
     text-align: center;
-    border: groove;
+    
 }
 
 .btn-aus2 {
@@ -299,18 +307,19 @@
 /* David's CSS */
 .p-class {
   display: block;
-  margin: 0px;
   vertical-align: middle;
+  margin-left:64px;
+  margin-right: 64px;
 }
 
 .container {
-  display:grid;
+  display:inline-grid;
   color: black;
   grid-template-columns: 280px 280px 280px 280px;
   grid-template-rows: 275px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 0px;
+  /*margin-left: 0px;
+  margin-right: 0px;*/
+  justify-content: center;
 }
 
 .div-grid {
@@ -367,7 +376,7 @@
 }
 
 .header-ro {
-    background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('background.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.00001), rgba(0, 0, 0, .000001)), url('img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -433,12 +442,12 @@
 }
 
 /*Moj's CSS*/
-.footer-wrapper .container {
-  width: 30%;
-  margin: auto auto 10px auto;
+.footer-wrapper .contact-container {
+  width: 25vw;
+  margin: auto auto 10px auto; 
 }
 
-.footer-wrapper, .footer-wrapper p, .footer-wrapper span, .footer-wrapper img, .footer-wrapper label, .footer-wrapper form, .footer-wrapper input, .footer-wrapper h1, .footer-wrapper textarea {
+.footer-wrapper, .footer-wrapper p, .footer-wrapper span, .footer-wrapper img, .footer-wrapper label, .footer-wrapper form, .footer-wrapper input, .footer-wrapper h1, .footer-wrapper textarea, .trademark {
   margin: 0;
   padding: 0;
   background-color: #1f1818;
@@ -447,7 +456,7 @@
 }
 
 .footer-wrapper {
-  padding-bottom: 50px;
+  height: 100vh;
 }
 
 .footer-wrapper h1 {
@@ -587,6 +596,7 @@
   text-align: center;
   color: #98a69c;
   font-size: 10pt;
+  padding-bottom: 10px;
 }
 
 .trademark::before {
