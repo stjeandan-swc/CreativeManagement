@@ -382,6 +382,8 @@
     text-decoration: none;
     font-size: 80%;
    letter-spacing:1px;
+   cursor: pointer;
+
 }
 
 .bat-ro {
@@ -408,10 +410,17 @@
     text-align: center;
 }
 
+.ro {
+    color:#6f44d6;
+}
+.ro-2{
+    color:#fff;
+}
 .btn-ro {
     padding: 10px 10px 10px 10px;
     background-color: #fe6192;
     border: none;
+    cursor:pointer;
 }
 
 .container-within-ro {
@@ -422,9 +431,6 @@
     text-align: center;
     justify-content: center;
 }
-
-
-
 
 /*Moj's CSS*/
 .footer-wrapper .container {
