@@ -298,8 +298,9 @@
 /* David's CSS */
 .p-class {
   display: block;
-  margin: 0px;
   vertical-align: middle;
+  margin-left:64px;
+  margin-right: 64px;
 }
 
 .container {
@@ -309,7 +310,6 @@
   grid-template-rows: 275px;
   /*margin-left: 0px;
   margin-right: 0px;*/
-  padding: 0px;
   justify-content: center;
 }
 
