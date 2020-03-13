@@ -302,17 +302,18 @@
 }
 
 .container {
-  display:grid;
+  display:flex;
   color: black;
   grid-template-columns: 280px 280px 280px 280px;
   grid-template-rows: 275px;
-  margin-left: 0px;
-  margin-right: 0px;
+  /*margin-left: 0px;
+  margin-right: 0px;*/
   padding: 0px;
+  justify-content: center;
 }
 
 .div-grid {
-  display:flex;
+  display:inline-grid;
   padding: 8px;
   font-size: 18px;
   text-align: center;
