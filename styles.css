@@ -296,7 +296,7 @@
 }
 
 /* David's CSS */
-p {
+.p-class {
   display: block;
   margin: 0px;
   vertical-align: middle;
@@ -307,9 +307,6 @@ p {
   color: black;
   grid-template-columns: 280px 280px 280px 280px;
   grid-template-rows: 275px;
-
-  /*grid-auto-columns: 25% 25% 25% 25%;
-  grid-auto-rows 25% 25%*/
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px;
@@ -320,6 +317,7 @@ p {
   padding: 8px;
   font-size: 18px;
   text-align: center;
+  justify-content: center;
   margin-left: 12.5%;
   margin-right: 12.5%;
 }
@@ -384,6 +382,7 @@ p {
     text-decoration: none;
     font-size: 80%;
     letter-spacing:1px;
+    cursor: pointer;
 }
 
 .bat-ro {
@@ -410,10 +409,17 @@ p {
     text-align: center;
 }
 
+.ro {
+    color:#6f44d6;
+}
+.ro-2{
+    color:#fff;
+}
 .btn-ro {
     padding: 10px 10px 10px 10px;
     background-color: #fe6192;
     border: none;
+    cursor:pointer;
 }
 
 .container-within-ro {
@@ -424,9 +430,6 @@ p {
     text-align: center;
     justify-content: center;
 }
-
-
-
 
 /*Moj's CSS*/
 .footer-wrapper .container {
