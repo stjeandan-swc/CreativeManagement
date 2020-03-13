@@ -4,106 +4,123 @@
 }
 
 /**lalaantika's code start**/
-.mainl{
-background-color:white;
-height:100vh;
-
+.mainl {
+    height: 100vh;
+    background-color: white;
 }
 
 .wrapperl {
-    display:inline-grid;
-    grid-template-columns:repeat(5 100%);
-    background-color:#6F43D6;
+    display: grid;
+    grid-template-columns: repeat(14,97px);
+    grid-template-rows: repeat(10,50px);
+    background-color: #6F43D6;
+    padding-top: 25px;
+    margin-top: 120px;
 }
 
 .boxl {
-    display:inline-block;
-    background-color:#6F43D6;
-    border: 80px;
+    display: flex;
+    background-color: #6F43D6;
 }
 
 .onel {
-  padding-top:150px;
-  grid-column-start: 1;
-  grid-column-end:2;
-  grid-row: 1;
-  padding-right:25px;
-  border:60px;
-  padding-left: 350px;
-  padding-bottom: 150px;
-}
-
-.linediv {
-  grid-column-start: 3;
-  grid-column-end:3;
-  grid-row: 1;
-  padding-left:5px
+    grid-column: 1/7;
+    grid-row: 1/8;
+    padding-left: 200px;
+    padding-right: 25px;
+    padding-top: 50px;
 }
 
 .twol {
-  padding-top:150px;
-  grid-column: 4/5;
-  grid-row: 1;
-  padding-right:300px;
-  padding-bottom: 150px;
+    grid-column: 7/8;
+    grid-row: 1/8;
+    border-left: 25px;
 }
 
-.textl {
-  color:white;
-  font-size:200%;
-  font-weight: 400;
-  text-align: right;
-  text-decoration: none;
-  font-family: sans-serif;
+.threel {
+    grid-column: 8/14;
+    grid-row: 1/8;
+    padding-right: 160px;
+    padding-left: 5px;
+    padding-top: 40px;
 }
 
-.textl2 {
-  color:white;
-  font-size: 120%;
-  text-decoration: none;
-  text-align: left;
-}
-
-.vlla {
-  position: relative;
-  border-left: 5px solid #4FD5ED  ;
-  height: 250px;
-  top: 150px;
-  bottom: 50px;
-}
-
-.textl3 {
-  color:white;
-  font-size: 100%;
-  text-decoration: none;
+.fourl {
+    grid-column: 6/9;
+    grid-row: 7/9;
+    margin-left: 80px;
 }
 
 .ullist {
-  list-style: none;
+    list-style: none;
 }
 
 .forc {
-  color: #4FD5ED ;
+    color: #4FD5ED;
 }
 
-.servicebox {
-   position: relative;
-    background-color:mediumvioletred;
-    border:5px solid mediumvioletred;
-    color:white;
+.vlla {
+    position: relative;
+    border-left: 5px solid #4FD5ED;
+    height: 200px;
+    top: 50px;
+    bottom: 50px;
+    left: 45px;
+}
+
+.textl {
+    color: white;
+    font-size: 125%;
+    font-weight: 400;
+    text-align: right;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.textl2 {
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: left;
+}
+
+.textl3 {
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+    text-align: left;
+}
+
+.clearl {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 11;
+}
+
+.clearl2 {
+    grid-column-start: 6;
+    grid-column-end: 15;
+    grid-row-start: 8;
+    grid-row-end: 11;
+}
+
+.boxl3 {
+    background-color: white;
+}
+
+.serviceboxl {
+    position: relative;
+    background-color: #FE6192;
+    border: 5px solid #FE6192;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    z-index:0;
+    font-weight: 200;
 }
-.boxpl {
-  padding-left: 720px;
-  position: relative;
-  top:580px;
-}
-
 /* Dan css */
 .dan-container {
   position: relative;
@@ -167,7 +184,6 @@ height:100vh;
   height: 100vh;
   text-align: center;
   background-color: whitesmoke;
-  vertical-align: middle;
 }
 
 .scrn10bigtext {
@@ -178,6 +194,7 @@ height:100vh;
 .screen10font {
   font-family: 'Bahnschrift', sans-serif;
   font-weight: bolder;
+  color: black;
 }
 
 .textblue {
@@ -189,13 +206,19 @@ height:100vh;
   color: grey;
 }
 .textarea {
-  padding: 20px 350px 20px 350px;
+  padding: 20px 340px 20px 340px;
 }
 
 .topspace {
-  padding: 150px 0 0 0;
+  padding: 100px 0 0 0;
   margin: 0;
 }
+
+.alignpics {
+  align-content: center;
+  padding-bottom: 20px;
+}
+
 
 /*aus css*/
 .wrapper {
@@ -312,230 +335,21 @@ p {
   padding-bottom: 20px;
 }
 
-/*Roaa css( dont mind it now I will delete most of them later) */
-.huge {
-    font-size: 170px;
-    font-weight: 700;
-}
-
-.huge-element:after {
-    content: '';
-    position: absolute;
-    top: 19%;
-    left: 71%;
-    width: 70px;
-    height: 149px;
-    background: url(../images/element-1.png);
-    z-index: -1;
-}
-
-.huge-element-4:after {
-    content: '';
-    position: absolute;
-    top: 13%;
-    left: 144%;
-    width: 70px;
-    height: 149px;
-    background: url(../images/element-2.png) no-repeat;
-    z-index: -1;
-}
-
-.nav-bar {
+/*Roaa css */
+.nav-bar-ro {
     display: flex;
     align-items: center;
 }
 
-    .nav-bar > ul {
-        padding: 0;
-    }
-
-.mr-auto {
-    margin: auto;
-}
-
-.lb {
-    color: blue;
-}
-
-.hd {
+.hd-ro {
     display: flex;
-    justify-content: space-around;
-}
 
-.nav-items {
-    display: flex;
-    list-style: none;
-}
-
-    .nav-items > ul {
-        padding: 0;
-        display: flex;
-        margin:;
-    }
-
-.space {
-    padding-right: 250px;
-}
-
-.inactive-btn-A {
-    padding: .100rem 2rem;
-    text-decoration: none;
-}
-
-.bat {
-    color: #eee;
-}
-
-.main-navbar {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 0;
-}
-
-.outer-navbar {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.rd-navbar-submenu-toggle {
-    margin-left: 4px;
-    font-family: material design icons;
-    cursor: pointer;
-    color: #fff;
-}
-
-.the-purple-color {
-    color: #6f44d6
-}
-
-body {
-    font-family: oswald,sans-serif;
-    font-size: 14px;
-    line-height: 2;
-    font-weight: 400;
-    color: #fff;
-    background-color: #fff;
-    -webkit-text-size-adjust: none;
-    -webkit-font-smoothing: subpixel-antialiased;
-}
-
-.navbar-main-element {
-    display: flex;
-    align-items: center;
 }
 
 .nav-items-ro {
-    display: inline-block;
-}
-
-.nav-items > ul {
-    padding: 0;
     display: flex;
-    margin:;
-}
-
-.inactive-btn-A {
-    padding: .100rem 2rem;
-    text-decoration: none;
-}
-
-.bat {
-    color: #fff;
-}
-
-.rd-navbar-static {
-    border-bottom: 1px solid transparent;
-}
-
-.img-cla {
-    text-align: left;
-    width: 150%;
-}
-
-.img-cla2 {
-    text-align: right;
-    width: 35%;
-}
-
-.alig-lan {
-    padding-left: 120px;
-}
-
-.alig-lan2 {
-    padding-left: 0px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    margin: 0;
-}
-
-.img-cla {
-    text-align: left;
-    width: 150%;
-}
-
-.img-cla2 {
-    text-align: right;
-    width: 35%;
-}
-
-.alig-lan {
-    padding-left: 300px;
-}
-
-.alig-lan2 {
-    padding-left: 0px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    margin: 0;
-}
-
-element.style {
-    background-image: url(images/bg-header-01-2049x946.jpg);
-}
-
-.bg-image {
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
-.section-main {
-    padding-top: 260px;
-    padding-bottom: 200px;
-}
-
-.section-main {
-    padding: 50px 0;
-}
-
-.dark {
-    color: #fff;
+    list-style: none;
+    margin-left:50px
 }
 
 .header-ro {
@@ -550,33 +364,44 @@ element.style {
     padding-bottom: 0px;
 }
 
-.rd-navbar-submenu-toggle {
-    margin-left: 4px;
-    font-family: material design icons;
-    cursor: pointer;
+.inactive-btn-ro {
+    padding: .50rem 2rem;
+    text-decoration: none;
+    font-size: 80%;
+   letter-spacing:1px;
+}
+
+.bat-ro {
     color: #fff;
 }
 
-*::before, *::after {
-    box-sizing: border-box;
+.img-ro {
+    text-align: left;
+    width: 150%;
 }
 
-.text1 {
-    letter-spacing: 6px;
-    font-weight: 300;
-    text-transform: uppercase !important;
-    color: #fff;
+
+.alig-ro {
+    padding-left: 300px;
 }
 
-.container-roaa {
+.container-ro {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 51%;
+    margin-left: 51%;
+    padding: 122px;
+    text-align: center;
 }
 
-.container-within-roaa {
+.btn-ro {
+    padding: 10px 10px 10px 10px;
+    background-color: #fe6192;
+    border: none;
+}
+
+.container-within-ro {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
@@ -638,8 +463,6 @@ element.style {
 
 .h3 {
     text-align: center !important;
-}
-
 }
 
 .col-lg-12 {
