@@ -28,7 +28,7 @@
     grid-row: 1/8;
     padding-left: 200px;
     padding-right: 25px;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .twol {
@@ -71,7 +71,7 @@
 
 .textl {
     color: white;
-    font-size: 125%;
+    font-size: 140%;
     font-weight: 400;
     text-align: right;
     text-decoration: none;
