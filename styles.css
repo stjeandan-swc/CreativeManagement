@@ -255,7 +255,7 @@
     padding: 100px;
     border-radius: 3px;
     text-align: center;
-    
+
 }
 
 .center {
@@ -266,7 +266,7 @@
     display: flex;
     justify-content: center;
     align-items:center;
-   
+
 }
 
 .btn-aus {
@@ -295,7 +295,7 @@
     padding: 50px;
     border-radius: 3px;
     text-align: center;
-    
+
 }
 
 .btn-aus2 {
@@ -411,11 +411,8 @@
 
 .container-ro {
     width: 100%;
-    padding-right: 5px;
-    padding-left: 5px;
     margin-right: 51%;
     margin-left: 51%;
-    padding: 122px;
     text-align: center;
 }
 
@@ -444,7 +441,7 @@
 /*Moj's CSS*/
 .footer-wrapper .contact-container {
   width: 25vw;
-  margin: auto auto 10px auto; 
+  margin: auto auto 10px auto;
 }
 
 .footer-wrapper, .footer-wrapper p, .footer-wrapper span, .footer-wrapper img, .footer-wrapper label, .footer-wrapper form, .footer-wrapper input, .footer-wrapper h1, .footer-wrapper textarea, .trademark {
