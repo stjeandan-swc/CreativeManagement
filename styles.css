@@ -381,9 +381,8 @@
     padding: .50rem 2rem;
     text-decoration: none;
     font-size: 80%;
-   letter-spacing:1px;
-   cursor: pointer;
-
+    letter-spacing:1px;
+    cursor: pointer;
 }
 
 .bat-ro {
