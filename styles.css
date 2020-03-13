@@ -167,7 +167,6 @@ height:100vh;
   height: 100vh;
   text-align: center;
   background-color: whitesmoke;
-  vertical-align: middle;
 }
 
 .scrn10bigtext {
@@ -178,6 +177,7 @@ height:100vh;
 .screen10font {
   font-family: 'Bahnschrift', sans-serif;
   font-weight: bolder;
+  color: black;
 }
 
 .textblue {
@@ -189,13 +189,19 @@ height:100vh;
   color: grey;
 }
 .textarea {
-  padding: 20px 350px 20px 350px;
+  padding: 20px 340px 20px 340px;
 }
 
 .topspace {
-  padding: 150px 0 0 0;
+  padding: 100px 0 0 0;
   margin: 0;
 }
+
+.alignpics {
+  align-content: center;
+  padding-bottom: 20px;
+}
+
 
 /*aus css*/
 .wrapper {
