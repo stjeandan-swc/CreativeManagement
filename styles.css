@@ -334,7 +334,7 @@ p {
 .box-grid {
   display:block;
   padding:0px;
-  margin: none;
+  margin: 0;
   /*box-shadow: 1px 1px 6px rgba(0,0,0,5);*/
 }
 
@@ -507,7 +507,7 @@ p {
   margin-top: 30px;
   padding: 0px;
   font-weight: 700;
-  background-color: #fe6192;;
+  background-color: #fe6192;
   color: #f2dfe8;
   border: none;
   width: 160px;
