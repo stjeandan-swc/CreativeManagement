@@ -646,3 +646,165 @@ element.style {
     flex: 0 0 100%;
     max-width: 100%;
 }
+
+/*Moj's CSS*/
+.footer-wrapper .container {
+  width: 30%;
+  margin: auto auto 10px auto;
+}
+
+.footer-wrapper, .footer-wrapper p, .footer-wrapper span, .footer-wrapper img, .footer-wrapper label, .footer-wrapper form, .footer-wrapper input, .footer-wrapper h1, .footer-wrapper textarea {
+  margin: 0;
+  padding: 0;
+  background-color: #1f1818;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.footer-wrapper {
+  padding-bottom: 50px;
+}
+
+.footer-wrapper h1 {
+  margin: 20px 10px 60px auto;
+  text-align: center;
+  font-size: 32pt;
+  color: #fff;
+  font-family: arial;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-wrapper .form {
+  margin: auto;
+}
+  
+.footer-wrapper label {
+  color: #98a69c;
+  font-style: italic;
+  font-size: 12pt;
+  line-height:20px;
+}
+
+.footer-wrapper .form div {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-column-gap: 0;
+  box-sizing: border-box;
+}
+
+.footer-wrapper .div-line {
+  width: 100%;
+  margin: 15px 0 40px 0;
+  padding: 0;
+  border-bottom: thin solid #98a69c;
+}
+
+.footer-wrapper label span {
+  color: yellow;
+  margin: 0 2px;
+}
+
+.footer-wrapper input, textarea {
+  width: 100%;
+  border: none;
+  resize: both;
+  overflow: auto;
+  color: #eee;
+  font-size: 13pt;
+}
+
+.footer-wrapper textarea{
+  padding-top: 4px;
+}
+
+.footer-wrapper button {
+  margin-top: 30px;
+  padding: 0px;
+  font-weight: 700;
+  background-color: #fe6192;;
+  color: #f2dfe8;
+  border: none;
+  width: 160px;
+  height: 35px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-wrapper button::before {
+  font-weight: 700;
+  content: "+";
+  margin-right: 10px;
+}
+
+.social-icons-bar {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.social-icons-bar ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.social-icons-bar a {
+  vertical-align: middle;
+  display: inline-block;
+  border: .1px solid white;
+  border-radius: 40%;
+  padding: 6px;
+  background-color: #98a69c
+}
+.social-icons-bar li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.social-icons-bar a.linkedin::before{
+  background: url(img/linkedin.png) no-repeat 0 0;
+  background-size: 100%;
+  background-color: #98a69c;
+}
+
+.social-icons-bar a.twitter::before{
+  background: url(img/twitter.jpg) no-repeat 0 0;
+  background-size: 100%;
+
+}
+
+.social-icons-bar a.facebook::before{
+  background: url(img/facebook.png) no-repeat 0 0;
+  background-size: 100%;
+  background-color: #98a69c;
+}
+
+.social-icons-bar a.instagram::before{
+  background: url(img/instagram.png) no-repeat 0 0;
+  background-size: 100%;
+  background-color: #98a69c;
+}
+
+.social-icons-bar a::before {
+  display: block;
+  content:"";
+  width: 15px;
+  height: 15px;
+}
+
+.trademark {
+  text-align: center;
+  color: #98a69c;
+  font-size: 10pt;
+}
+
+.trademark::before {
+  content:"@";
+  margin-right: 5px;
+}
