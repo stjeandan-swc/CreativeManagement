@@ -302,7 +302,7 @@
 }
 
 .container {
-  display:flex;
+  display:inline-grid;
   color: black;
   grid-template-columns: 280px 280px 280px 280px;
   grid-template-rows: 275px;
@@ -313,7 +313,7 @@
 }
 
 .div-grid {
-  display:inline-grid;
+  display:flex;
   padding: 8px;
   font-size: 18px;
   text-align: center;
