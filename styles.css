@@ -317,9 +317,9 @@
   color: black;
   grid-template-columns: 280px 280px 280px 280px;
   grid-template-rows: 275px;
-  /*margin-left: 0px;
-  margin-right: 0px;*/
   justify-content: center;
+  width:100%;
+  margin:auto auto;
 }
 
 .div-grid {
