@@ -184,7 +184,6 @@
   height: 100vh;
   text-align: center;
   background-color: whitesmoke;
-  vertical-align: middle;
 }
 
 .scrn10bigtext {
@@ -195,6 +194,7 @@
 .screen10font {
   font-family: 'Bahnschrift', sans-serif;
   font-weight: bolder;
+  color: black;
 }
 
 .textblue {
@@ -206,13 +206,19 @@
   color: grey;
 }
 .textarea {
-  padding: 20px 350px 20px 350px;
+  padding: 20px 340px 20px 340px;
 }
 
 .topspace {
-  padding: 150px 0 0 0;
+  padding: 100px 0 0 0;
   margin: 0;
 }
+
+.alignpics {
+  align-content: center;
+  padding-bottom: 20px;
+}
+
 
 /*aus css*/
 .wrapper {
@@ -329,230 +335,21 @@ p {
   padding-bottom: 20px;
 }
 
-/*Roaa css( dont mind it now I will delete most of them later) */
-.huge {
-    font-size: 170px;
-    font-weight: 700;
-}
-
-.huge-element:after {
-    content: '';
-    position: absolute;
-    top: 19%;
-    left: 71%;
-    width: 70px;
-    height: 149px;
-    background: url(../images/element-1.png);
-    z-index: -1;
-}
-
-.huge-element-4:after {
-    content: '';
-    position: absolute;
-    top: 13%;
-    left: 144%;
-    width: 70px;
-    height: 149px;
-    background: url(../images/element-2.png) no-repeat;
-    z-index: -1;
-}
-
-.nav-bar {
+/*Roaa css */
+.nav-bar-ro {
     display: flex;
     align-items: center;
 }
 
-    .nav-bar > ul {
-        padding: 0;
-    }
-
-.mr-auto {
-    margin: auto;
-}
-
-.lb {
-    color: blue;
-}
-
-.hd {
+.hd-ro {
     display: flex;
-    justify-content: space-around;
-}
 
-.nav-items {
-    display: flex;
-    list-style: none;
-}
-
-    .nav-items > ul {
-        padding: 0;
-        display: flex;
-        margin:;
-    }
-
-.space {
-    padding-right: 250px;
-}
-
-.inactive-btn-A {
-    padding: .100rem 2rem;
-    text-decoration: none;
-}
-
-.bat {
-    color: #eee;
-}
-
-.main-navbar {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 0;
-}
-
-.outer-navbar {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.rd-navbar-submenu-toggle {
-    margin-left: 4px;
-    font-family: material design icons;
-    cursor: pointer;
-    color: #fff;
-}
-
-.the-purple-color {
-    color: #6f44d6
-}
-
-body {
-    font-family: oswald,sans-serif;
-    font-size: 14px;
-    line-height: 2;
-    font-weight: 400;
-    color: #fff;
-    background-color: #fff;
-    -webkit-text-size-adjust: none;
-    -webkit-font-smoothing: subpixel-antialiased;
-}
-
-.navbar-main-element {
-    display: flex;
-    align-items: center;
 }
 
 .nav-items-ro {
-    display: inline-block;
-}
-
-.nav-items > ul {
-    padding: 0;
     display: flex;
-    margin:;
-}
-
-.inactive-btn-A {
-    padding: .100rem 2rem;
-    text-decoration: none;
-}
-
-.bat {
-    color: #fff;
-}
-
-.rd-navbar-static {
-    border-bottom: 1px solid transparent;
-}
-
-.img-cla {
-    text-align: left;
-    width: 150%;
-}
-
-.img-cla2 {
-    text-align: right;
-    width: 35%;
-}
-
-.alig-lan {
-    padding-left: 120px;
-}
-
-.alig-lan2 {
-    padding-left: 0px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    margin: 0;
-}
-
-.img-cla {
-    text-align: left;
-    width: 150%;
-}
-
-.img-cla2 {
-    text-align: right;
-    width: 35%;
-}
-
-.alig-lan {
-    padding-left: 300px;
-}
-
-.alig-lan2 {
-    padding-left: 0px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    margin: 0;
-}
-
-element.style {
-    background-image: url(images/bg-header-01-2049x946.jpg);
-}
-
-.bg-image {
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
-.section-main {
-    padding-top: 260px;
-    padding-bottom: 200px;
-}
-
-.section-main {
-    padding: 50px 0;
-}
-
-.dark {
-    color: #fff;
+    list-style: none;
+    margin-left:50px
 }
 
 .header-ro {
@@ -567,33 +364,44 @@ element.style {
     padding-bottom: 0px;
 }
 
-.rd-navbar-submenu-toggle {
-    margin-left: 4px;
-    font-family: material design icons;
-    cursor: pointer;
+.inactive-btn-ro {
+    padding: .50rem 2rem;
+    text-decoration: none;
+    font-size: 80%;
+   letter-spacing:1px;
+}
+
+.bat-ro {
     color: #fff;
 }
 
-*::before, *::after {
-    box-sizing: border-box;
+.img-ro {
+    text-align: left;
+    width: 150%;
 }
 
-.text1 {
-    letter-spacing: 6px;
-    font-weight: 300;
-    text-transform: uppercase !important;
-    color: #fff;
+
+.alig-ro {
+    padding-left: 300px;
 }
 
-.container-roaa {
+.container-ro {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 51%;
+    margin-left: 51%;
+    padding: 122px;
+    text-align: center;
 }
 
-.container-within-roaa {
+.btn-ro {
+    padding: 10px 10px 10px 10px;
+    background-color: #fe6192;
+    border: none;
+}
+
+.container-within-ro {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
@@ -655,8 +463,6 @@ element.style {
 
 .h3 {
     text-align: center !important;
-}
-
 }
 
 .col-lg-12 {
