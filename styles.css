@@ -229,6 +229,9 @@
     height: 570px;
     align-content: center;
 }
+.sb {
+    box-shadow: 20px 20px 50px grey;
+}
 
 .box {
     background-color: white;
@@ -236,6 +239,7 @@
     padding: 100px;
     border-radius: 3px;
     text-align: center;
+    
 }
 
 .center {
@@ -245,6 +249,7 @@
 .center1 {
     display: flex;
     justify-content: center;
+   
 }
 
 .btn-aus {
@@ -259,10 +264,15 @@
     text-align: center;
     background-color: #4fd5ed;
     color: white;
+    height: 350px;
 }
 
 .cl {
     color: #4fd5ed;
+}
+.ma{
+    margin-top:10px;
+   
 }
 
 .box2 {
@@ -271,7 +281,7 @@
     padding: 50px;
     border-radius: 3px;
     text-align: center;
-    border: groove;
+    
 }
 
 .btn-aus2 {
