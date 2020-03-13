@@ -123,6 +123,7 @@
 }
 /* Dan css */
 .dan-container {
+  display: flex;
   position: relative;
   width: 100%;
 }
@@ -142,7 +143,7 @@
 }
 
 .shift-down {
-  margin-top: 1.75rem;
+  margin-top: 1.25rem;
 }
 
 .dan-font {
@@ -158,6 +159,11 @@
   color: white;
 }
 
+.dan-font-sm {
+  font-size: 1vw;
+  color: white;
+}
+
 .move-forward {
   z-index: 1;
 }
@@ -166,15 +172,23 @@
   background-color: #6d41d3;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.dan-footer {
+  align-self: flex-end;
+  width: 100vw;
+  height: 20%;
+  opacity: 0.9;
 }
 
-.spacing {
-  margin-left: 10%;
+.dan-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.dan-item {
+  align-self: center;
+  text-align: center;
 }
 
 /* These are start of Dr Thom & Gervan's CSS classes */
@@ -448,7 +462,7 @@ p {
 .footer-wrapper .form {
   margin: auto;
 }
-  
+
 .footer-wrapper label {
   color: #98a69c;
   font-style: italic;
