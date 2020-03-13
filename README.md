@@ -15,4 +15,4 @@ Aus - Pricing Page
 
 Moj - Contact
 
-Dan - 
+Dan - Events page
