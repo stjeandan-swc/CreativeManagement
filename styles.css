@@ -264,6 +264,7 @@
 .center1 {
     display: flex;
     justify-content: center;
+    align-items:center;
    
 }
 
@@ -285,10 +286,7 @@
 .cl {
     color: #4fd5ed;
 }
-.ma{
-    margin-top:10px;
-   
-}
+
 
 .box2 {
     background-color: white;
