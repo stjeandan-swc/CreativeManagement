@@ -306,9 +306,6 @@
   color: black;
   grid-template-columns: 280px 280px 280px 280px;
   grid-template-rows: 275px;
-
-  /*grid-auto-columns: 25% 25% 25% 25%;
-  grid-auto-rows 25% 25%*/
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px;
@@ -319,9 +316,9 @@
   padding: 8px;
   font-size: 18px;
   text-align: center;
-  
-  margin-left: 14.5%;
-  margin-right: 14.5%;
+  justify-content: center;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
 }
 
 .div-grid-info {
