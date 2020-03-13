@@ -427,12 +427,12 @@
 
 
 /*Moj's CSS*/
-.footer-wrapper .container {
-  width: 30%;
-  margin: auto auto 10px auto;
+.footer-wrapper .contact-container {
+  width: 25vw;
+  margin: auto auto 10px auto; 
 }
 
-.footer-wrapper, .footer-wrapper p, .footer-wrapper span, .footer-wrapper img, .footer-wrapper label, .footer-wrapper form, .footer-wrapper input, .footer-wrapper h1, .footer-wrapper textarea {
+.footer-wrapper, .footer-wrapper p, .footer-wrapper span, .footer-wrapper img, .footer-wrapper label, .footer-wrapper form, .footer-wrapper input, .footer-wrapper h1, .footer-wrapper textarea, .trademark {
   margin: 0;
   padding: 0;
   background-color: #1f1818;
@@ -441,7 +441,7 @@
 }
 
 .footer-wrapper {
-  padding-bottom: 50px;
+  height: 100vh;
 }
 
 .footer-wrapper h1 {
@@ -581,6 +581,7 @@
   text-align: center;
   color: #98a69c;
   font-size: 10pt;
+  padding-bottom: 10px;
 }
 
 .trademark::before {
