@@ -248,8 +248,11 @@
 .sb {
     box-shadow: 20px 20px 50px grey;
 }
-
-.box {
+.full-height {
+    height: 7%;
+    margin: 0;
+}
+    .box {
     background-color: white;
     color: black;
     padding: 100px;
