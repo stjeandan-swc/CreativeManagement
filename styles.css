@@ -318,7 +318,8 @@
 .container {
   display:inline-grid;
   color: black;
-  grid-template-columns: 280px 280px 280px 280px;
+/*  grid-template-columns: 280px 280px 280px 280px;*/
+  grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
   grid-template-rows: 275px;
   justify-content: center;
   width:100%;
