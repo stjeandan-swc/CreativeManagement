@@ -4,6 +4,7 @@
 }
 
 /**lalaantika's code start**/
+/*
 .mainl {
     height: 100vh;
     background-color: white;
@@ -133,6 +134,55 @@
     font-size: 16px;
     font-weight: 200;
 }
+*/
+.la-container {
+  height: 100vh;
+}
+
+.la-inner-container {
+  background-color: #6F43D6;
+  height: 90vh;
+}
+
+.la-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.la-item1 {
+  margin-top: 12%;
+  width: 500px;
+}
+
+.la-item2 {
+  margin-top: 12%;
+  width: 350px;
+}
+
+.la-text-lg {
+  font-size: 36pt;
+  color: white;
+}
+
+.la-text-sm {
+  font-size: 16pt;
+  color: white;
+}
+
+.la-btn {
+  width: 150px;
+  height: 50px;
+  background-color: #FE6192;
+  border: 5px solid #FE6192;
+  color: white;
+  margin-top: 14rem;
+}
+
+.la-color {
+  color: #4FD5ED;
+}
+
 /* Dan css */
 .dan-container {
   display: flex;
